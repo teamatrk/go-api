@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
+	"app"
+	"db"
 	"gorilla/mux"
-	"web/app"
-	"web/db"
 )
 
 func main() {
